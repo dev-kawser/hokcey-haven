@@ -27,37 +27,80 @@
     </style>
 </head>
 
-<body class="main-font container mx-auto">
-    <header class="min-h-screen my-10">
+<body class="main-font container mx-auto min-h-screen">
+    <!-- header section start -->
+    <header class="mt-10">
         <div>
-            <div class="carousel w-full mx-5">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="images/1.png" class="w-full" />
-                    <div class="absolute flex gap-2 left-40 bottom-4 lg:left-8 lg:bottom-8">
-                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+            <div>
+                <div class="carousel w-[90%] lg:w-full ml-5">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./images/1.png" class="w-full" />
+                        <div class="absolute flex gap-2 right-4 bottom-2 lg:left-8 lg:bottom-8">
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
                     </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="images/4.png" class="w-full" />
-                    <div class="absolute flex gap-2 left-40 bottom-4 lg:left-8 lg:bottom-8">
-                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
-                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./images/4.png" class="w-full" />
+                        <div class="absolute flex gap-2 right-4 bottom-2 lg:left-8 lg:bottom-8">
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class=" ml-5 w-full lg:absolute bottom-10 right-20 p-4 lg:p-8 bg-[#131318] lg:w-1/3 space-y-4 rounded-xl">
-            <h4 class=" text-xl lg:text-2xl font-extrabold text-white">Meet all the heroes from the field</h4>
-            <p class="text-sm font-medium text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                turpis placerat dolor. Purus urna in sit nullam proin. </p>
-        </div>
+            <div
+                class="w-[85%] ml-8 lg:absolute bottom-10 right-20 p-4 lg:p-8 bg-[#131318] lg:w-1/3 space-y-4 rounded-xl">
+                <h4 class="text-xl lg:text-2xl font-extrabold text-white">Meet all the heroes from the field</h4>
+                <p class="text-sm font-medium text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
         </div>
     </header>
-    <main>
-        <section class="min-h-screen">
-
+    <!-- header section end -->
+    <main class="container mx-auto">
+        <!-- professional section start -->
+        <section class="min-h-screen mt-10 lg:mt-20">
+            <div>
+                <div class="text-center">
+                    <h3 class="main-color text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h3>
+                    <p class="semi-color font-semibold mt-6 w-[80%] lg:w-2/4 mx-auto">Dit amet consectetur. Condimentum
+                        dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 mt-10 lg:mt-20">
+                    <div class="text-center flex flex-col items-center space-y-3">
+                        <div class="radial-progress text-primary text-red-500" style="--value:90;" role="progressbar">
+                            <div class="main-color font-extrabold">90%</div>
+                        </div>
+                        <h5 class="text-xl font-semibold">Prayer Facility</h5>
+                        <p class="w-2/3 semi-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="text-center flex flex-col items-center space-y-3">
+                        <div class="radial-progress text-primary text-green-500" style="--value:95;" role="progressbar">
+                            <div class="main-color font-extrabold">95%</div>
+                        </div>
+                        <h5 class="text-xl font-semibold">Prayer Facility</h5>
+                        <p class="w-2/3 semi-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="text-center flex flex-col items-center space-y-3">
+                        <div class="radial-progress text-primary text-orange-500" style="--value:90;"
+                            role="progressbar">
+                            <div class="main-color font-extrabold">90%</div>
+                        </div>
+                        <h5 class="text-xl font-semibold">Prayer Facility</h5>
+                        <p class="w-2/3 semi-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="text-center flex flex-col items-center space-y-3">
+                        <div class="radial-progress text-primary text-blue-500" style="--value:80;" role="progressbar">
+                            <div class="main-color font-extrabold">80%</div>
+                        </div>
+                        <h5 class="text-xl font-semibold">Prayer Facility</h5>
+                        <p class="w-2/3 semi-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- professional section start -->
     </main>
     <footer>
 
