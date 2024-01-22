@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HockeyHavenHub.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ba808f6d4.js" crossorigin="anonymous"></script>
+    <style>
+        .main-font {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .main-color {
+            color: #131318;
+        }
+
+        .semi-color {
+            color: rgba(19, 19, 24, 0.60);
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="main-font container mx-auto">
+    <header class="min-h-screen my-10">
+        <div>
+            <div class="carousel w-full mx-5">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full" />
+                    <div class="absolute flex gap-2 left-40 bottom-4 lg:left-8 lg:bottom-8">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/4.png" class="w-full" />
+                    <div class="absolute flex gap-2 left-40 bottom-4 lg:left-8 lg:bottom-8">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" ml-5 w-full lg:absolute bottom-10 right-20 p-4 lg:p-8 bg-[#131318] lg:w-1/3 space-y-4 rounded-xl">
+            <h4 class=" text-xl lg:text-2xl font-extrabold text-white">Meet all the heroes from the field</h4>
+            <p class="text-sm font-medium text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="min-h-screen">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
